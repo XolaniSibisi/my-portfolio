@@ -2,6 +2,21 @@
     margin: 0 0 1em;
 }
 
+.vertical-timeline-element-content .experience-points li,
+.vertical-timeline-element-content p,
+.vertical-timeline-element-content span {
+  text-align: justify;
+  line-height: 1.55;
+  padding-bottom: 2.5px;
+}
+
+
+.vertical-timeline-element-content ul {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+
 @media only screen and (max-width: 768px) {
     .item-title {
         margin-top: 10px !important;

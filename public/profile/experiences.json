@@ -1,33 +1,32 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer",
+            "subtitle": "Netstar",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Developed and maintained C#-based applications to enhance the company’s fleet management system, incorporating real-time data analysis, improving system efficiency.",
+                "Contributed to the design and implementation of a NOMS v2 System, migrating it from .NET Framework 4.5 to .NET 9, enhancing system performance.",
+                "Collaborated with cross-functional teams to troubleshoot and resolve software issues, ensuring seamless operation of applications.",
+                "Participated in code reviews and contributed to the development of best practices for software development within the team.",
+                "Utilized version control systems such as Git to manage codebase and track changes effectively.",
+                "Engaged in Agile development processes, attending daily stand-ups and sprint planning sessions to ensure timely delivery of project milestones."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "11/2024 – Present"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Research Assistant",
+            "subtitle": "University of Johannesburg",
+            "workType": "Contract",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Assisted in research projects related to digital and sustainable development, focusing on data analysis and algorithm development.",
+                "Conducted literature reviews and contributed to the writing of research papers for publication in academic journals.",
+                "Contributed to the development of Python-based solutions for campus-wide applications, including a STEM application for Grade 12 learners, enhancing educational tools through technology.",
+                "Utilized Django and Flask frameworks, along with JavaScript, HTML5, and CSS3, to create interactive and user-friendly web applications, improving user engagement and accessibility.",
+                "Collaborated with a team to ensure the successful deployment and maintenance of applications, adhering to best practices in web development and quality assurance."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "02/2024 – 11/2024"
         }
+        
     ]
 }

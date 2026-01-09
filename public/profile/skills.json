@@ -9,10 +9,7 @@
                     "icon": "images/skills/java.png",
                     "title": "Java"
                 },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
+                
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
@@ -22,17 +19,31 @@
                     "title": "Python"
                 },
                 {
+                    "icon": "images/skills/c-sharp.png",
+                    "title": "C#"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                },
+                {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/microsoft-sql-server.png",
+                    "title": "MSSQL Server"
                 }
+    
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
+                
                 {
                     "icon": "images/skills/react.png",
                     "title": "React"
@@ -40,16 +51,25 @@
                 {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                },
+                {
+                   "icon": "images/skills/flask.png",
+                    "title": "Flask" 
+                },
+                {
+                    "icon": "images/skills/django.png",
+                    "title": "Django"
+                },
+                {
+                    "icon": "images/skills/Net core.png",
+                    "title": "NET core"
                 }
             ]
         },
         {
             "title" : "Tools & Platforms",
             "items": [
-                {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
+                
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"
@@ -57,6 +77,22 @@
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/VS-Code.png",
+                    "title": "VS Code"
+                },
+                {
+                    "icon": "images/skills/Visual-Studio.png",
+                    "title": "Visual Studio"
+                },
+                {
+                    "icon": "images/skills/Postman.png",
+                    "title": "Postman"
+                },
+                {
+                    "icon": "images/skills/Azure-DevOps.png",
+                    "title": "Azure DevOps"
                 }
             ]
     }

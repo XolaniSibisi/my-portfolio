@@ -1,19 +1,25 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "Mar 2023 - Oct 2023",
+            "cardTitle": "Work Readiness Programme",
+            "cardSubtitle":"University of Johannesburg, Johannesburg",
+            "cardDetailedText": "Specialized in Engineering Business Systems for 4IR, 4IR Technologies Bootcamp, Full Stack Web Development for 4IR, and Agile Rapid Skills Acquisition."
+
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Feb 2021 - Nov 2021",
+            "cardTitle": "BSc Honours Computer Science",
+            "cardSubtitle":"University of Zululand, Empangeni",
+            "cardDetailedText": "Specialized in Advanced Software and Distributed Computing Techniques, Wireless Networks with Special focus on ad hoc networks and their simulations, Advanced Distributed Database Techniques and Security- WS and SOA, Software Defined Networking Theory and application, and Research."
+            
+        },
+        {
+            "title": "Feb 2016 - Nov 2020",
+            "cardTitle": "BSc Computer Science and Hydrology",
+            "cardSubtitle":"University of Zululand, Empangeni",
+            "cardDetailedText": "Specialized in Introductory Computing, Classical Mechanics and Properties of Matter, Elementary Statistics for Science Students, Introductory Systems Programming, Mathematics and Statistics for Life and Environment, Data Structures & Algorithms, Computer Communications and Networks, Introductory Software Engineering, Database and Information Management I, Geographical Information Systems, Advanced Programming Techniques, Systems Programming, Distributed Systems Development, Final Year Project"
+                                 
         }
     ]
 }
