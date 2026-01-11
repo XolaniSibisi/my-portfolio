@@ -10,12 +10,25 @@ import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
-  window.matchMedia = null;
-  const darkMode = useDarkMode(true);
+  // Destructure across multiple lines to satisfy object-curly-newline
+  const {
+    isDark,
+    toggle,
+    setDark,
+    setLight,
+  } = useDarkMode();
+
+  // Use object shorthand + multiline to satisfy both rules
+  const darkMode = {
+    value: isDark,
+    toggle,
+    setDark,
+    setLight,
+  };
 
   return (
     <AppContext.Provider value={{ darkMode }}>
-      <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
+      <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
           <BrowserRouter>

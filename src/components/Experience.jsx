@@ -56,7 +56,7 @@ function Experience(props) {
       .then((res) => res.json())
       .then((res) => setData(res.experiences))
       .catch((err) => {
-        console.error('Failed to fetch experiences:', err);
+        console.error('Error fetching experience data:', err);
         setData([]); // fail-safe to avoid spinner loop
       });
   }, []);
@@ -78,19 +78,24 @@ function Experience(props) {
                       date={item.dateText}
                       style={{ margin: '28px 0' }}
                       contentStyle={{
-                        background: '#ffffff',
-                        color: theme?.color || '#111827',
-                        boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
-                        borderRadius: 8,
+                        background: theme?.cardBackground || '#fff',
+                        color: theme?.color || '#121212',
+                        boxShadow: theme?.cardBackground
+                          ? '0 6px 18px rgba(0,0,0,0.45)'
+                          : '0 6px 18px rgba(0,0,0,0.08)',
+                        border: `1px solid ${theme?.cardBorderColor || '#00000020'}`,
+                        borderRadius: 10,
                         paddingBottom: '18px 20px',
                       }}
-                      contentArrowStyle={{ borderRight: '7px solid #ffffff' }}
+                      contentArrowStyle={{ borderRight: `7px solid ${theme?.cardBackground || '#fff'}` }}
                       iconStyle={{
-                        background: theme?.accentColor || '#1e40af',
+                        background: theme?.accentColor || '#3D84C6',
                         color: '#fff',
-                        boxShadow: '0 0 0 4px rgba(30,64,175,0.15)',
-                        width: 55,
-                        height: 55,
+                        boxShadow: theme?.background === '#121212'
+                          ? '0 0 0 3px rgba(61, 132, 198, 0.22)'
+                          : '0 0 0 3px rgba(61, 132, 198, 0.15)',
+                        width: 52,
+                        height: 52,
                       }}
                     >
                       <h2 className="item-title" style={styles.itemTitle}>
@@ -113,7 +118,6 @@ function Experience(props) {
                         {item.workDescription?.map((point) => (
                           <li key={makePointKey(elementKey, point)}>
                             <ReactMarkdown
-                              // render paragraph as inline span to avoid extra spacing
                               children={point}
                               components={{ p: 'span' }}
                             />

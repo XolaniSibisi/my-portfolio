@@ -10,6 +10,10 @@
   padding-bottom: 2.5px;
 }
 
+.vertical-timeline-element-content,
+.vertical-timeline-element-content * {
+  color: inherit;
+}
 
 .vertical-timeline-element-content ul {
   margin-top: 8px;

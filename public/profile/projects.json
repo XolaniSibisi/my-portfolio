@@ -3,11 +3,11 @@
         {
             "image" : "images/projects/portfolio-poster.png",
             "title": "My Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- My Portfolio website is made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/XolaniSibisi/my-portfolio"
                 },
                 {
                     "text": "Live",
@@ -21,129 +21,131 @@
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/ic_launcher-web.png",
+            "title": "Women Safety App",
+            "bodyText": "- A mobile application that helps women in distress by sending **SMS messages** to pre-saved emergency contacts with their live location.\n - Built using **Java** for Android platform",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/XolaniSibisi/Women-Safety-App"
+                }
+                
+            ],
+            "tags" : [
+                "Java",
+                "XML",
+                "Android Studio",
+                "Google Maps API",
+                "SMS Manager",
+                "Location Services"
+                
+            ]
+        },
+        {
+            "image" : "images/projects/uj.jpg",
+            "title": "UJ Online Attendance System using Face Recognition",
+            "bodyText": "- A Python application that uses **face recognition** to mark attendance of students in a class.\n - Built using **Tkinter**, pretrained **Haarcascade_frontalface_default** and **LBPH** algorithm.\n - Uses **MySQL** database and **CSV** file to store student data and attendance records.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/Face_Recognition"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Tkinter",
+                "Face Recognition",
+                "MySQL",
+                "CSV",
+                "Haarcascade",
+                "LBPH"
+            ]
+        },
+        {
+            "title": "Malware Detection using API Calls",
+            "bodyText": "- A Jupyter Notebook project that analyses **API call** sequences to **detect malware** using **Machine Learning** and **Deep Learning** techniques.\n - Utilizes datasets containing **API call** sequences from both **benign** and **malicious** software to train and evaluate models.\n - Implements algorithms such as **Decision Trees**, **Random Forests**, and **Support Vector Machines** for classification tasks against **CNN LSTM**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/Malware-Detection-using-API-Calls"
+                }
+            ],
+            "tags" : [
+                "Jupyter Notebook",
+                "Python",
+                "API Calls",
+                "Malware Detection",
+                "Machine Learning"
+            ]
+        },
+        {
+            "title": "Pizza Order App",
+            "bodyText": "- A JavaScript-based web application that uses a **mock API** to fetch pizza data. \n - Allows users to add pizzas to a cart, view the cart, place orders, and view order history.\n - Built with **HTML**, **CSS**, **JavaScript**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/pizza-cart-with-api"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Fetch API",
+                "Alpine.js"
+            ]
+        },
+        {
+            "title": "Maths and Science Chatbot",
+            "bodyText": "- A chatbot built using **Python** and **Gemini API** that helps students with their Maths and Science questions.\n - Utilizes **Natural Language Processing (NLP)** techniques to understand and respond to user queries.\n - Provides explanations, examples, and step-by-step solutions to various topics in Maths and Science.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/MathsScienceChatbot"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "NLP",
+                "Chatbot",
+                "Gemini API"
+            ]
+        },
+        {
+            "title": "S3 Storage Example",
+            "bodyText": "- An Python web application that demonstrates how to upload and retrieve files from **AWS S3** using **Boto3** library.\n - Built with **Django** framework for the backend and **Tailwind** framework for the frontend.\n - Allows users to upload files to an S3 bucket and view/download them.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/S3StorageExample"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Django",
+                "AWS S3",
+                "Boto3",
+                "Tailwind"
+            ]
+        },
+        {
+            "title": "Mocha Bootcamp Tests",
+            "bodyText": "- A collection of test cases written in **JavaScript** using the **Mocha** testing framework.\n - Covers various scenarios and edge cases for different functions and modules.\n - Helps in ensuring code quality and reliability through automated testing.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/XolaniSibisi/bootcamp-tests"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://xolanisibisi.github.io/bootcamp-tests/"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "JavaScript",
+                "Mocha",
+                "Testing",
+                "Unit Tests"
             ]
         }
     ]
