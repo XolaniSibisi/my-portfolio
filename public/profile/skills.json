@@ -54,14 +54,14 @@
                 },
                 {
                    "icon": "images/skills/flask.png",
-                    "title": "Flask" 
+                    "title": "flask" 
                 },
                 {
                     "icon": "images/skills/django.png",
                     "title": "Django"
                 },
                 {
-                    "icon": "images/skills/Net core.png",
+                    "icon": "images/skills/net-core.png",
                     "title": "NET core"
                 }
             ]
@@ -79,19 +79,19 @@
                     "title": "Docker"
                 },
                 {
-                    "icon": "images/skills/VS-Code.png",
+                    "icon": "images/skills/vs-code.png",
                     "title": "VS Code"
                 },
                 {
-                    "icon": "images/skills/Visual-Studio.png",
+                    "icon": "images/skills/visual-studio.png",
                     "title": "Visual Studio"
                 },
                 {
-                    "icon": "images/skills/Postman.png",
+                    "icon": "images/skills/postman.png",
                     "title": "Postman"
                 },
                 {
-                    "icon": "images/skills/Azure-DevOps.png",
+                    "icon": "images/skills/azure.png",
                     "title": "Azure DevOps"
                 }
             ]
