@@ -10,17 +10,16 @@ import FallbackSpinner from './FallbackSpinner';
 const styles = {
   introTextContainer: {
     margin: 10,
-    flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
-    fontSize: '1.2em',
+    fontSize: '1.1em',
     fontWeight: 500,
   },
   introImageContainer: {
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
+    maxWidth: '100%',
+    height: 'auto',
+    objectFit: 'cover',
+    borderRadius: 8,
   },
 };
 
@@ -40,7 +39,10 @@ function About(props) {
     })
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => err);
+      .catch((err) => {
+        console.error('Error fetching about data:', err);
+        setData({ about: '', imageSource: '' });
+      });
   }, []);
 
   return (
@@ -50,13 +52,13 @@ function About(props) {
         <Container>
           {data
             ? (
-              <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
+              <Fade triggerOnce>
+                <Row className="align-items-center gy-4 flex-column flex-md-row">
+                  <Col className="col-12 col-md-7" style={styles.introTextContainer}>
+                    {data?.about ? parseIntro(data.about) : null}
                   </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                  <Col className="col-12 col-md-5 col-lg-4" style={styles.introImageContainer}>
+                    {data?.imageSource ? <img src={data?.imageSource} alt="profile" className="img-fluid" style={styles.introImageContainer} loading="lazy" /> : null}
                   </Col>
                 </Row>
               </Fade>
